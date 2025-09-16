@@ -1,0 +1,26 @@
+
+-------------------------------------------------
+Mon Sep 15 22:20:05 2025
+Namespace(symbol='BTCUSDT', side='buy', quantity=0.2, price=9.8, testnet=True, order_type='LIMIT', time_in_force='GTC', trade_type='STOPLIMIT', stop_price=10.0, trailingDelta=None)
+{'code': -1102, 'msg': "Mandatory parameter 'timeInForce' was not sent, was empty/null, or malformed."}
+-------------------------------------------------
+Mon Sep 15 22:20:44 2025
+Namespace(symbol='BTCUSDT', side='buy', quantity=0.2, price=9.8, testnet=True, order_type='LIMIT', time_in_force='GTC', trade_type='STOPLIMIT', stop_price=10.0, trailingDelta=None)
+{'code': -1013, 'msg': 'Filter failure: PERCENT_PRICE_BY_SIDE'}
+-------------------------------------------------
+Tue Sep 16 08:05:20 2025
+Namespace(symbol='BTCUSDT', side='BUY', quantity=0.01, price=None, testnet=True, order_type='MARKET', time_in_force='GTC', stop_price=None, trailingDelta=None)
+{'symbol': 'BTCUSDT', 'orderId': 1552592, 'orderListId': -1, 'clientOrderId': '5CYHBBE4JfQ9A5Zc8gNbUv', 'transactTime': 1757990122994, 'price': '0.00000000', 'origQty': '0.01000000', 'executedQty': '0.01000000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '1151.90650000', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'workingTime': 1757990122994, 'fills': [{'price': '115190.65000000', 'qty': '0.01000000', 'commission': '0.00000000', 'commissionAsset': 'BTC', 'tradeId': 422882}], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+-------------------------------------------------
+Tue Sep 16 08:06:51 2025
+Namespace(symbol='BTCUSDT', side='BUY', quantity=0.01, price=115000.0, testnet=True, order_type='STOP_LOSS_LIMIT', time_in_force='GTC', stop_price=10000.0, trailingDelta=None)
+{'code': -1013, 'msg': 'Filter failure: PERCENT_PRICE_BY_SIDE'}
+-------------------------------------------------
+Tue Sep 16 08:11:07 2025
+Namespace(symbol='BTCUSDT', side='BUY', quantity=0.01, price=112350.0, testnet=True, order_type='STOP_LOSS_LIMIT', time_in_force='GTC', stop_price=112300.0, trailingDelta=None)
+{'code': -2010, 'msg': 'Stop price would trigger immediately.'}
+-------------------------------------------------
+Tue Sep 16 08:12:21 2025
+Namespace(symbol='BTCUSDT', side='BUY', quantity=0.01, price=115350.0, testnet=True, order_type='STOP_LOSS_LIMIT', time_in_force='GTC', stop_price=115300.0, trailingDelta=None)
+{'symbol': 'BTCUSDT', 'orderId': 1553097, 'orderListId': -1, 'clientOrderId': 'GjWjkXyrzkeBqR9H5xxPMJ', 'transactTime': 1757990544130}
+-------------------------------------------------
